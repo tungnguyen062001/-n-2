@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 
 
-
+// Route::view('/user', '/list');
 Route::get('user/list', function () {
     return view('user.list');
 });
@@ -31,9 +31,9 @@ Route::get('user/list', function () {
 // Route::get('sinhvien/list', function () {
 //     return view('sinhvien.list');
 // });
-// Route::get('giaodien/giaodien', function () {
-//     return view('giaodien.giaodien');
-// });
+Route::get('giaodien/giaodien', function () {
+    return view('giaodien.giaodien');
+});
 // Route::get('lop/list', function () {
 //     return view('lop.list');
 // });
